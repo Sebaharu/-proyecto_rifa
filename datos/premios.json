@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nombre": "Televisor",
+        "descripcion": "Smart TV de 50 pulgadas",
+        "estado": "disponible"
+    },
+    {
+        "id": 2,
+        "nombre": "Bicicleta",
+        "descripcion": "Bicicleta aro 29",
+        "estado": "disponible"
+    },
+    {
+        "id": 3,
+        "nombre": "Audifonos",
+        "descripcion": "Audifonos Bluetooth",
+        "estado": "disponible"
+    }
+]
