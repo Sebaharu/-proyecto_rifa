@@ -2,4 +2,9 @@
 .env.*
 !.env.example
 comprobantes/*
-!comprobantes/.gitkeep
+!comprobantes/.gitkeep.env
+.env.*
+!.env.example
+/comprobantes/*
+!/comprobantes/.gitkeep
+!/comprobantes/.htaccess
