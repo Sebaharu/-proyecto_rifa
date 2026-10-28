@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "id": 1,
+        "nombre": "Sebastian",
+        "apellido": "Reyes",
+        "numero_rifa": 15
+    }
+]
