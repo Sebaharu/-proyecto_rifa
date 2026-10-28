@@ -8,7 +8,7 @@ if (!isset($_SESSION["usuario_web"])) {
 
 $archivo = __DIR__ . "/../datos/reservas.json";
 $totalNumeros = 100;
-$precioNumero = 1000;
+$precioNumero = 2000;
 $mensaje = $_SESSION["mensaje_rifa"] ?? "";
 $error = $_SESSION["error_rifa"] ?? "";
 
