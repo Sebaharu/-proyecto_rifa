@@ -142,9 +142,16 @@ foreach ($reservas as $reserva) {
     $numerosReservados[] = (int)$reserva["numero"];
 }
 
-$cantidadReservados = count($numerosReservados);
+// Guardar la cantidad de reservas en la sesión
+$_SESSION["cantidad_reservados"] = count($numerosReservados);
+
+// Obtener el contador desde la sesión
+$cantidadReservados = $_SESSION["cantidad_reservados"];
+
 $cantidadDisponibles = $totalNumeros - $cantidadReservados;
+
 $totalRecaudado = $cantidadReservados * $precioNumero;
+
 ?>
 
 <!DOCTYPE html>
